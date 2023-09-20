@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Stopwatch</title>
+    <style>
+      body, .jumbotron { padding: 30px; }
+      .timer {
+      font-size: 120px;
+      }
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <div class="timer">
+            <span class="minutes">0 0</span> : <span class="seconds">0 0</span>
+        </div>
+      
+        <div class="timer-buttons">
+            <button data-action="start" class="btn btn-lg btn-success" data-type="start">Start</button>
+            <button data-action="stop" class="btn btn-lg btn-danger">Stop</button>      
+            <button data-action="reset" class="btn btn-link btn-block ">Reset</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
